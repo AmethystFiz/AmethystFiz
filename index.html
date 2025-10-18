@@ -6,275 +6,254 @@
   <title>AmethystFiz Store - Aplikasi Premium</title>
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Kaushan+Script&display=swap" rel="stylesheet">
- <style>
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
-  }
-
-  body {
-    background: url('image/background.jpg') no-repeat center center fixed;
-    background-size: cover;
-    color: #333;
-    padding: 15px;
-    min-height: 100vh;
-    position: relative;
-  }
-
-  .container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding-top: 60px;
-  }
-
-  .header {
-    text-align: center;
-    margin-bottom: 20px;
-    position: relative;
-  }
-
-  .header h1 {
-    font-family: 'Kaushan Script', cursive;
-    font-size: 2.5rem;
-    color: #e101c0;
-    text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
-    letter-spacing: 2px;
-  }
-
-  .header p {
-    font-size: 1rem;
-    color: #666;
-    margin-top: 5px;
-    font-weight: 500;
-  }
-
-  .app-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
-    gap: 15px;
-    padding: 5px;
-  }
-
-  .app-card {
-    background: rgba(255, 255, 255, 0.9);
-    border-radius: 12px;
-    overflow: hidden;
-    box-shadow: 0 3px 12px rgba(0,0,0,0.08);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    position: relative;
-    backdrop-filter: blur(5px);
-    border: 1px solid rgba(255, 255, 255, 0.5);
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-    min-width: 0;
-  }
-
-  .app-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 6px 20px rgba(0,0,0,0.1);
-  }
-
-  .app-image-container {
-    width: 100%;
-    height: 140px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: #f8f9fa;
-    border-bottom: 2px solid #e0c8f3;
-    overflow: hidden;
-  }
-
-  .app-image {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: center;
-    transition: transform 0.3s;
-  }
-
-  .app-card:hover .app-image {
-    transform: scale(1.05);
-  }
-
-  .app-content {
-    padding: 10px;
-    flex-grow: 1;
-    display: flex;
-    flex-direction: column;
-  }
-
-  .app-name {
-    font-family: 'Kaushan Script', cursive;
-    font-size: 1.1rem;
-    font-weight: bold;
-    margin-bottom: 8px;
-    color: #8a2be2;
-  }
-
-  .variant {
-    margin-bottom: 8px;
-    padding: 6px 10px;
-    background: #f8f9fa;
-    border-radius: 6px;
-    border-left: 4px solid #d8b4fe;
-    transition: background 0.2s;
-    flex-shrink: 0;
-  }
-
-  .variant:hover {
-    background: #f3e8ff;
-  }
-
-  .variant-title {
-    font-weight: bold;
-    color: #333;
-    margin-bottom: 3px;
-    font-size: 0.85rem;
-  }
-
-  .price {
-    font-size: 0.95rem;
-    font-weight: bold;
-    color: #9333ea;
-    margin: 3px 0;
-  }
-
-  /* Tombol Order */
-  .order-btn {
-    display: block;
-    width: 100%;
-    padding: 8px;
-    background: #9333ea;
-    color: white;
-    text-align: center;
-    font-weight: bold;
-    text-decoration: none;
-    border-radius: 6px;
-    margin-top: auto;
-    transition: background 0.2s, transform 0.2s;
-    border: none;
-    cursor: pointer;
-    font-size: 0.9rem;
-  }
-
-  .order-btn:hover {
-    background: #7e22ce;
-    transform: translateY(-2px);
-  }
-
-  .tag {
-    position: absolute;
-    top: 8px;
-    right: 8px;
-    background: #d8b4fe;
-    color: #4c1d95;
-    padding: 2px 6px;
-    border-radius: 8px;
-    font-size: 0.65rem;
-    font-weight: bold;
-    font-family: 'Poppins', sans-serif;
-  }
-
-  .footer-sticky {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    background: rgba(0, 0, 0, 0.8);
-    backdrop-filter: blur(10px);
-    border-top: 2px solid #e0c8f3;
-    padding: 8px 15px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    z-index: 1000;
-    box-shadow: 0 -4px 16px rgba(0,0,0,0.1);
-  }
-
-  .footer-icon {
-    width: 28px;
-    height: 28px;
-    cursor: pointer;
-    transition: transform 0.2s;
-  }
-
-  .footer-icon:hover {
-    transform: scale(1.1);
-  }
-
-  .footer-text {
-    color: white;
-    font-size: 0.85rem;
-    font-weight: 500;
-    margin: 0 8px;
-  }
-
-  /* RESPONSIF UNTUK HP & TABLET */
-  @media (max-width: 768px) {
-    .app-grid {
-      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-      gap: 12px;
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
     }
+
+    body {
+      background: url('image/background.jpg') no-repeat center center fixed;
+      background-size: cover;
+      color: #333;
+      padding: 5px;
+      min-height: 100vh;
+      position: relative;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding-top: 40px;
+    }
+
+    .header {
+      text-align: center;
+      margin-bottom: 10px;
+      position: relative;
+    }
+
     .header h1 {
-      font-size: 2rem;
+      font-family: 'Kaushan Script', cursive;
+      font-size: 1.5rem;
+      color: #e101c0;
+      text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+      letter-spacing: 1px;
     }
-    .app-image-container {
-      height: 120px;
-    }
-    .app-name {
-      font-size: 1rem;
-    }
-    .variant-title {
+
+    .header p {
       font-size: 0.8rem;
+      color: #666;
+      margin-top: 3px;
+      font-weight: 500;
     }
-    .price {
-      font-size: 0.9rem;
-    }
-    .order-btn {
-      font-size: 0.85rem;
-      padding: 6px;
-    }
-    .footer-sticky {
-      flex-direction: column;
-      padding: 8px;
+
+    .app-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(110px, 1fr));
       gap: 6px;
+      padding: 3px;
     }
-  }
 
-  @media (max-width: 480px) {
-    .app-grid {
-      grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
-      gap: 10px;
+    .app-card {
+      background: rgba(255, 255, 255, 0.9);
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 1px 6px rgba(0,0,0,0.05);
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+      position: relative;
+      backdrop-filter: blur(5px);
+      border: 1px solid rgba(255, 255, 255, 0.5);
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+      min-width: 0;
     }
-    .header h1 {
-      font-size: 1.6rem;
+
+    .app-card:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 3px 8px rgba(0,0,0,0.08);
     }
+
     .app-image-container {
-      height: 100px;
+      width: 100%;
+      height: 40px;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      background: #f8f9fa;
+      border-bottom: 1px solid #e0c8f3;
+      overflow: hidden;
     }
+
+    .app-image {
+      width: 30px;
+      height: 30px;
+      object-fit: cover;
+      object-position: center;
+      margin-left: 5px;
+      border-radius: 4px;
+      transition: transform 0.3s;
+    }
+
+    .app-card:hover .app-image {
+      transform: scale(1.05);
+    }
+
+    .app-content {
+      padding: 4px;
+      flex-grow: 1;
+      display: flex;
+      flex-direction: column;
+    }
+
     .app-name {
-      font-size: 0.95rem;
-    }
-    .variant-title {
-      font-size: 0.75rem;
-    }
-    .price {
-      font-size: 0.85rem;
-    }
-    .order-btn {
+      font-family: 'Kaushan Script', cursive;
       font-size: 0.8rem;
-      padding: 6px;
+      font-weight: bold;
+      margin-bottom: 3px;
+      color: #8a2be2;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
     }
-    .footer-sticky {
-      padding: 6px;
+
+    .variant {
+      margin-bottom: 3px;
+      padding: 3px 5px;
+      background: #f8f9fa;
+      border-radius: 3px;
+      border-left: 2px solid #d8b4fe;
+      transition: background 0.2s;
+      flex-shrink: 0;
     }
-  }
-</style>
+
+    .variant:hover {
+      background: #f3e8ff;
+    }
+
+    .variant-title {
+      font-weight: bold;
+      color: #333;
+      margin-bottom: 2px;
+      font-size: 0.65rem;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .price {
+      font-size: 0.7rem;
+      font-weight: bold;
+      color: #9333ea;
+      margin: 1px 0;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    /* Tombol Order */
+    .order-btn {
+      display: block;
+      width: 100%;
+      padding: 4px;
+      background: #9333ea;
+      color: white;
+      text-align: center;
+      font-weight: bold;
+      text-decoration: none;
+      border-radius: 3px;
+      margin-top: auto;
+      transition: background 0.2s, transform 0.2s;
+      border: none;
+      cursor: pointer;
+      font-size: 0.7rem;
+      white-space: nowrap;
+    }
+
+    .order-btn:hover {
+      background: #7e22ce;
+      transform: translateY(-1px);
+    }
+
+    .tag {
+      position: absolute;
+      top: 3px;
+      right: 3px;
+      background: #d8b4fe;
+      color: #4c1d95;
+      padding: 1px 4px;
+      border-radius: 4px;
+      font-size: 0.55rem;
+      font-weight: bold;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    /* RESPONSIF UNTUK HP & TABLET */
+    @media (max-width: 768px) {
+      .app-grid {
+        grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+        gap: 5px;
+      }
+      .header h1 {
+        font-size: 1.3rem;
+      }
+      .app-image-container {
+        height: 35px;
+      }
+      .app-image {
+        width: 25px;
+        height: 25px;
+        margin-left: 4px;
+      }
+      .app-name {
+        font-size: 0.75rem;
+      }
+      .variant-title {
+        font-size: 0.6rem;
+      }
+      .price {
+        font-size: 0.65rem;
+      }
+      .order-btn {
+        font-size: 0.65rem;
+        padding: 3px;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .app-grid {
+        grid-template-columns: repeat(auto-fill, minmax(90px, 1fr));
+        gap: 4px;
+      }
+      .header h1 {
+        font-size: 1.2rem;
+      }
+      .app-image-container {
+        height: 30px;
+      }
+      .app-image {
+        width: 22px;
+        height: 22px;
+        margin-left: 3px;
+      }
+      .app-name {
+        font-size: 0.7rem;
+      }
+      .variant-title {
+        font-size: 0.55rem;
+      }
+      .price {
+        font-size: 0.6rem;
+      }
+      .order-btn {
+        font-size: 0.6rem;
+        padding: 3px;
+      }
+    }
+  </style>
 </head>
 <body>
 
@@ -282,7 +261,7 @@
 
     <div class="header">
       <h1>AmethystFiz Store</h1>
-      <p>✨ Aplikasi Premium | Garansi | Akun Asli | Update Setiap Minggu ✨</p>
+      <p>✨ Aplikasi Premium | TopUp & Kebsos Via Chat ✨</p>
     </div>
 
     <div class="app-grid">
@@ -296,7 +275,7 @@
           <div class="app-name">Alight Motion</div>
           <div class="variant">
             <div class="variant-title">Durasi</div>
-            <div class="price">1 Tahun: Rp1.000</div>
+            <div class="price">1 Thn: Rp1.000</div>
           </div>
           <a href="https://linktr.ee/amethystFiz" target="_blank" class="order-btn">Order</a>
         </div>
@@ -311,7 +290,7 @@
           <div class="app-name">Viu</div>
           <div class="variant">
             <div class="variant-title">Private Unlim</div>
-            <div class="price">1 Tahun: Rp5.000</div>
+            <div class="price">1 Thn: Rp5.000</div>
           </div>
           <a href="https://linktr.ee/amethystFiz" target="_blank" class="order-btn">Order</a>
         </div>
@@ -326,7 +305,7 @@
           <div class="app-name">Prime Video</div>
           <div class="variant">
             <div class="variant-title">Private</div>
-            <div class="price">1 Bulan: Rp10.000</div>
+            <div class="price">1 Bln: Rp10.000</div>
           </div>
           <a href="https://linktr.ee/amethystFiz" target="_blank" class="order-btn">Order</a>
         </div>
@@ -341,7 +320,7 @@
           <div class="app-name">Ibis Paint</div>
           <div class="variant">
             <div class="variant-title">Sharing</div>
-            <div class="price">1 Tahun: Rp20.000 (Android)</div>
+            <div class="price">1 Thn: Rp20.000</div>
           </div>
           <a href="https://linktr.ee/amethystFiz" target="_blank" class="order-btn">Order</a>
         </div>
@@ -356,8 +335,8 @@
           <div class="app-name">WINK</div>
           <div class="variant">
             <div class="variant-title">Durasi</div>
-            <div class="price">7 Hari: Rp5.000</div>
-            <div class="price">1 Bulan: Rp12.000</div>
+            <div class="price">7H: Rp5.000</div>
+            <div class="price">1B: Rp12.000</div>
           </div>
           <a href="https://linktr.ee/amethystFiz" target="_blank" class="order-btn">Order</a>
         </div>
@@ -372,11 +351,11 @@
           <div class="app-name">Disney+</div>
           <div class="variant">
             <div class="variant-title">Sharing</div>
-            <div class="price">1 Bulan: Rp14.000</div>
+            <div class="price">1 Bln: Rp14.000</div>
           </div>
           <div class="variant">
             <div class="variant-title">Private</div>
-            <div class="price">1 Bulan: Rp35.000</div>
+            <div class="price">1 Bln: Rp35.000</div>
           </div>
           <a href="https://linktr.ee/amethystFiz" target="_blank" class="order-btn">Order</a>
         </div>
@@ -391,11 +370,11 @@
           <div class="app-name">ChatGPT</div>
           <div class="variant">
             <div class="variant-title">Sharing</div>
-            <div class="price">1 Bulan: Rp14.000</div>
+            <div class="price">1 Bln: Rp14.000</div>
           </div>
           <div class="variant">
             <div class="variant-title">Private</div>
-            <div class="price">1 Bulan: Rp60.000</div>
+            <div class="price">1 Bln: Rp60.000</div>
           </div>
           <a href="https://linktr.ee/amethystFiz" target="_blank" class="order-btn">Order</a>
         </div>
@@ -410,11 +389,11 @@
           <div class="app-name">Picsart</div>
           <div class="variant">
             <div class="variant-title">Sharing</div>
-            <div class="price">1 Bulan: Rp4.000</div>
+            <div class="price">1 Bln: Rp4.000</div>
           </div>
           <div class="variant">
             <div class="variant-title">Private</div>
-            <div class="price">1 Bulan: Rp7.000</div>
+            <div class="price">1 Bln: Rp7.000</div>
           </div>
           <a href="https://linktr.ee/amethystFiz" target="_blank" class="order-btn">Order</a>
         </div>
@@ -429,11 +408,11 @@
           <div class="app-name">Loklok</div>
           <div class="variant">
             <div class="variant-title">Sharing 5U</div>
-            <div class="price">1 Bulan: Rp15.000</div>
+            <div class="price">1 Bln: Rp15.000</div>
           </div>
           <div class="variant">
             <div class="variant-title">Sharing 3U</div>
-            <div class="price">1 Bulan: Rp18.000</div>
+            <div class="price">1 Bln: Rp18.000</div>
           </div>
           <a href="https://linktr.ee/amethystFiz" target="_blank" class="order-btn">Order</a>
         </div>
@@ -448,13 +427,13 @@
           <div class="app-name">Spotify</div>
           <div class="variant">
             <div class="variant-title">Indplan</div>
-            <div class="price">1 Bulan: Rp6.000 (NoGar)</div>
-            <div class="price">1 Bulan: Rp17.000 (FullGar)</div>
+            <div class="price">1 Bln: Rp6.000</div>
+            <div class="price">1 Bln: Rp17.000</div>
           </div>
           <div class="variant">
             <div class="variant-title">Femplan</div>
-            <div class="price">1 Bulan: Rp15.000</div>
-            <div class="price">2 Bulan: Rp26.000</div>
+            <div class="price">1 Bln: Rp15.000</div>
+            <div class="price">2 Bln: Rp26.000</div>
           </div>
           <a href="https://linktr.ee/amethystFiz" target="_blank" class="order-btn">Order</a>
         </div>
@@ -469,12 +448,12 @@
           <div class="app-name">CapCut</div>
           <div class="variant">
             <div class="variant-title">Sharing</div>
-            <div class="price">1 Bulan: Rp2.500 (Garansi 7 Hari)</div>
+            <div class="price">1 Bln: Rp2.500</div>
           </div>
           <div class="variant">
             <div class="variant-title">Private</div>
-            <div class="price">7 Hari: Rp2.500</div>
-            <div class="price">1 Bulan: Rp6.000</div>
+            <div class="price">7H: Rp2.500</div>
+            <div class="price">1B: Rp6.000</div>
           </div>
           <a href="https://linktr.ee/amethystFiz" target="_blank" class="order-btn">Order</a>
         </div>
@@ -489,14 +468,14 @@
           <div class="app-name">BStation</div>
           <div class="variant">
             <div class="variant-title">Sharing</div>
-            <div class="price">1 Bulan: Rp6.000</div>
-            <div class="price">3 Bulan: Rp12.000</div>
-            <div class="price">1 Tahun: Rp15.000</div>
+            <div class="price">1 Bln: Rp6.000</div>
+            <div class="price">3 Bln: Rp12.000</div>
+            <div class="price">1 Thn: Rp15.000</div>
           </div>
           <div class="variant">
             <div class="variant-title">Private</div>
-            <div class="price">1 Bulan: Rp29.000</div>
-            <div class="price">2 Bulan: Rp46.000</div>
+            <div class="price">1 Bln: Rp29.000</div>
+            <div class="price">2 Bln: Rp46.000</div>
           </div>
           <a href="https://linktr.ee/amethystFiz" target="_blank" class="order-btn">Order</a>
         </div>
@@ -511,15 +490,15 @@
           <div class="app-name">YouTube</div>
           <div class="variant">
             <div class="variant-title">Femplan</div>
-            <div class="price">1 Bulan: Rp3.000</div>
+            <div class="price">1 Bln: Rp3.000</div>
           </div>
           <div class="variant">
             <div class="variant-title">Indplan</div>
-            <div class="price">1 Bulan: Rp9.000</div>
+            <div class="price">1 Bln: Rp9.000</div>
           </div>
           <div class="variant">
             <div class="variant-title">FamHead</div>
-            <div class="price">1 Bulan: Rp12.000</div>
+            <div class="price">1 Bln: Rp12.000</div>
           </div>
           <a href="https://linktr.ee/amethystFiz" target="_blank" class="order-btn">Order</a>
         </div>
@@ -534,19 +513,19 @@
           <div class="app-name">WeTV</div>
           <div class="variant">
             <div class="variant-title">Sharing 8U</div>
-            <div class="price">1 Bulan: Rp6.000</div>
+            <div class="price">1 Bln: Rp6.000</div>
           </div>
           <div class="variant">
             <div class="variant-title">Sharing 5U</div>
-            <div class="price">1 Bulan: Rp10.000</div>
+            <div class="price">1 Bln: Rp10.000</div>
           </div>
           <div class="variant">
             <div class="variant-title">Sharing 3U</div>
-            <div class="price">1 Bulan: Rp12.000</div>
+            <div class="price">1 Bln: Rp12.000</div>
           </div>
           <div class="variant">
             <div class="variant-title">Private</div>
-            <div class="price">1 Bulan: Rp30.000</div>
+            <div class="price">1 Bln: Rp30.000</div>
           </div>
           <a href="https://linktr.ee/amethystFiz" target="_blank" class="order-btn">Order</a>
         </div>
@@ -560,18 +539,18 @@
         <div class="app-content">
           <div class="app-name">IQIYI</div>
           <div class="variant">
-            <div class="variant-title">Sharing - Plan Standar</div>
-            <div class="price">1 Bulan: Rp4.000</div>
+            <div class="variant-title">Sharing - Standar</div>
+            <div class="price">1 Bln: Rp4.000</div>
           </div>
           <div class="variant">
-            <div class="variant-title">Sharing - Plan Prem</div>
-            <div class="price">1 Bulan: Rp6.000</div>
-            <div class="price">1 Tahun: Rp10.000</div>
+            <div class="variant-title">Sharing - Prem</div>
+            <div class="price">1 Bln: Rp6.000</div>
+            <div class="price">1 Thn: Rp10.000</div>
           </div>
           <div class="variant">
             <div class="variant-title">Private</div>
-            <div class="price">1 Bulan Plan Standar: Rp30.000</div>
-            <div class="price">1 Bulan Plan Prem: Rp40.000</div>
+            <div class="price">1 Bln: Rp30.000</div>
+            <div class="price">1 Bln: Rp40.000</div>
           </div>
           <a href="https://linktr.ee/amethystFiz" target="_blank" class="order-btn">Order</a>
         </div>
@@ -586,21 +565,21 @@
           <div class="app-name">Canva</div>
           <div class="variant">
             <div class="variant-title">Member</div>
-            <div class="price">1 Bulan: Rp1.000</div>
-            <div class="price">2 Bulan: Rp1.500</div>
-            <div class="price">3 Bulan: Rp2.000</div>
+            <div class="price">1 Bln: Rp1.000</div>
+            <div class="price">2 Bln: Rp1.500</div>
+            <div class="price">3 Bln: Rp2.000</div>
           </div>
           <div class="variant">
             <div class="variant-title">Designer</div>
-            <div class="price">1 Bulan: Rp3.000</div>
+            <div class="price">1 Bln: Rp3.000</div>
           </div>
           <div class="variant">
             <div class="variant-title">Admin</div>
-            <div class="price">1 Bulan: Rp5.000</div>
+            <div class="price">1 Bln: Rp5.000</div>
           </div>
           <div class="variant">
             <div class="variant-title">Education</div>
-            <div class="price">1 Tahun: Rp10.000</div>
+            <div class="price">1 Thn: Rp10.000</div>
           </div>
           <a href="https://linktr.ee/amethystFiz" target="_blank" class="order-btn">Order</a>
         </div>
@@ -614,28 +593,32 @@
         <div class="app-content">
           <div class="app-name">Netflix</div>
           <div class="variant">
-            <div class="variant-title">1 Profile 1 User</div>
-            <div class="price">7 Hari: Rp12.000</div>
-            <div class="price">1 Bulan: Rp24.000</div>
+            <div class="variant-title">1 User</div>
+            <div class="price">7H: Rp12.000</div>
+            <div class="price">1B: Rp24.000</div>
           </div>
           <div class="variant">
-            <div class="variant-title">1 Profile 2 User</div>
-            <div class="price">7 Hari: Rp10.000</div>
-            <div class="price">1 Bulan: Rp16.000</div>
+            <div class="variant-title">2 User</div>
+            <div class="price">7H: Rp10.000</div>
+            <div class="price">1B: Rp16.000</div>
           </div>
           <div class="variant">
             <div class="variant-title">Semi Private</div>
-            <div class="price">1 Bulan: Rp28.000</div>
+            <div class="price">1B: Rp28.000</div>
           </div>
           <div class="variant">
             <div class="variant-title">Private</div>
-            <div class="price">1 Bulan: Rp98.000</div>
+            <div class="price">1B: Rp98.000</div>
           </div>
           <a href="https://linktr.ee/amethystFiz" target="_blank" class="order-btn">Order</a>
         </div>
       </div>
+    </div>
+      </div>
 
     </div> <!-- .app-grid -->
+
   </div> <!-- .container -->
+
 </body>
 </html>
