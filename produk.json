@@ -1,0 +1,401 @@
+[
+  {
+    "Nama": "wink 7h",
+    "Harga": "3.000",
+    "Varian": "private email buyyer",
+    "Gambar": "WINK.jpg",
+    "Note": "android only"
+  },
+  {
+    "Nama": "wink 1b",
+    "Harga": "10.000",
+    "Varian": "private email buyyer",
+    "Gambar": "WINK.jpg",
+    "Note": "bawa email tiap minggu untuk login"
+  },
+  {
+    "Nama": "wink 7h",
+    "Harga": "4.500",
+    "Varian": "private email seller",
+    "Gambar": "WINK.jpg",
+    "Note": ""
+  },
+  {
+    "Nama": "wink 1b",
+    "Harga": "12.000",
+    "Varian": "private email seller",
+    "Gambar": "WINK.jpg",
+    "Note": "login tiap minggu"
+  },
+  {
+    "Nama": "wink 1b",
+    "Harga": "30.000",
+    "Varian": "private email seller",
+    "Gambar": "WINK.jpg",
+    "Note": "ios"
+  },
+  {
+    "Nama": "Spotify 1 bulan",
+    "Harga": "6.000",
+    "Varian": "indplan",
+    "Gambar": "SPOTIFY.jpg",
+    "Note": "only android"
+  },
+  {
+    "Nama": "Spotify 1 bulan",
+    "Harga": "17.500",
+    "Varian": "indplan",
+    "Gambar": "SPOTIFY.jpg",
+    "Note": "only android"
+  },
+  {
+    "Nama": "Netflix 7 hari",
+    "Harga": "11.000",
+    "Varian": "1 profile 2 user (1p2u)",
+    "Gambar": "NETFLIX.jpg",
+    "Note": "tidak support tv; aplikasi sharing tidak menerima komplain limit screen; garansi hanya untuk bf (untuk netf shar)"
+  },
+  {
+    "Nama": "Netflix 1 bulan",
+    "Harga": "16.000",
+    "Varian": "1 profile 2 user (1p2u)",
+    "Gambar": "NETFLIX.jpg",
+    "Note": "tidak support tv; aplikasi sharing tidak menerima komplain limit screen; garansi hanya untuk bf (untuk netf shar)"
+  },
+  {
+    "Nama": "Netflix 7 hari",
+    "Harga": "13.000",
+    "Varian": "1 profil 1 user (1p1u)",
+    "Gambar": "NETFLIX.jpg",
+    "Note": "tidak support tv; aplikasi sharing tidak menerima komplain limit screen; garansi hanya untuk bf (untuk netf shar)"
+  },
+  {
+    "Nama": "Netflix 1 bulan",
+    "Harga": "26.000",
+    "Varian": "1 profil 1 user (1p1u)",
+    "Gambar": "NETFLIX.jpg",
+    "Note": "tidak support tv; aplikasi sharing tidak menerima komplain limit screen; garansi hanya untuk bf (untuk netf shar)"
+  },
+  {
+    "Nama": "Netflix 1 bulan",
+    "Harga": "29.000",
+    "Varian": "semi private",
+    "Gambar": "NETFLIX.jpg",
+    "Note": "tidak support tv; aplikasi sharing tidak menerima komplain limit screen; garansi hanya untuk bf (untuk netf shar)"
+  },
+  {
+    "Nama": "Netflix 1 bulan",
+    "Harga": "98.000",
+    "Varian": "private",
+    "Gambar": "NETFLIX.jpg",
+    "Note": "Bisa digunakan dimana saja"
+  },
+  {
+    "Nama": "Picsart 1 bulan",
+    "Harga": "4.000",
+    "Varian": "sharing",
+    "Gambar": "PICSART.jpg",
+    "Note": "Akun dari seler"
+  },
+  {
+    "Nama": "Picsart 1 bulan",
+    "Harga": "8.000",
+    "Varian": "private",
+    "Gambar": "PICSART.jpg",
+    "Note": "Akun dari seler"
+  },
+  {
+    "Nama": "Alight Motion 1 tahun",
+    "Harga": "1.000",
+    "Varian": "Sharing",
+    "Gambar": "Alight-motion.jpg",
+    "Note": "Email dari Buyer dan wajib Email Fresh atau baru di buat"
+  },
+  {
+    "Nama": "Alight Motion 1 tahun",
+    "Harga": "3.000",
+    "Varian": "private",
+    "Gambar": "Alight-motion.jpg",
+    "Note": "email dari seller, buyer terima akun baru"
+  },
+  {
+    "Nama": "Canva 1 bulan",
+    "Harga": "1.000",
+    "Varian": "member",
+    "Gambar": "CANVA.jpg",
+    "Note": "login via invite"
+  },
+  {
+    "Nama": "Canva 2 bulan",
+    "Harga": "2.000",
+    "Varian": "member",
+    "Gambar": "CANVA.jpg",
+    "Note": "login via invite"
+  },
+  {
+    "Nama": "Canva 3 bulan",
+    "Harga": "2.800",
+    "Varian": "member",
+    "Gambar": "CANVA.jpg",
+    "Note": "login via invite"
+  },
+  {
+    "Nama": "Canva 1 bulan",
+    "Harga": "2.000",
+    "Varian": "designer",
+    "Gambar": "CANVA.jpg",
+    "Note": "designer bisa upload font, brand, color palatte, fitur ppt, dll"
+  },
+  {
+    "Nama": "Canva 1 bulan",
+    "Harga": "5.000",
+    "Varian": "admin/owner",
+    "Gambar": "CANVA.jpg",
+    "Note": "admin bisa invite max 20 member"
+  },
+  {
+    "Nama": "Canva lifetime",
+    "Harga": "12.000",
+    "Varian": "eduation",
+    "Gambar": "CANVA.jpg",
+    "Note": ""
+  },
+  {
+    "Nama": "Disney 1 bulan",
+    "Harga": "15.000",
+    "Varian": "sharing",
+    "Gambar": "DISNEY.jpg",
+    "Note": "Support all device"
+  },
+  {
+    "Nama": "Disney 1 bulan",
+    "Harga": "35.000",
+    "Varian": "private",
+    "Gambar": "DISNEY.jpg",
+    "Note": "Support all device"
+  },
+  {
+    "Nama": "Capcut 1 bulan",
+    "Harga": "2.500",
+    "Varian": "sharing",
+    "Gambar": "CAPCUT.jpg",
+    "Note": ""
+  },
+  {
+    "Nama": "Capcut 7 hari",
+    "Harga": "3.000",
+    "Varian": "private",
+    "Gambar": "CAPCUT.jpg",
+    "Note": ""
+  },
+  {
+    "Nama": "Capcut 1 bulan",
+    "Harga": "7.000",
+    "Varian": "private",
+    "Gambar": "CAPCUT.jpg",
+    "Note": ""
+  },
+  {
+    "Nama": "Capcut 7 hari",
+    "Harga": "1.500",
+    "Varian": "Invit",
+    "Gambar": "CAPCUT.jpg",
+    "Note": "Via Invit"
+  },
+  {
+    "Nama": "Capcut 7 hari",
+    "Harga": "5.000",
+    "Varian": "admin",
+    "Gambar": "CAPCUT.jpg",
+    "Note": "bisa inv max 29 member"
+  },
+  {
+    "Nama": "Youtube 1 bulan",
+    "Harga": "3.000",
+    "Varian": "famplan",
+    "Gambar": "YOUTUBE.jpg",
+    "Note": "Menggunakan akun Pribadi, Premium Via invit keluarga"
+  },
+  {
+    "Nama": "Youtube 1 bulan",
+    "Harga": "8.000",
+    "Varian": "indplan",
+    "Gambar": "YOUTUBE.jpg",
+    "Note": ""
+  },
+  {
+    "Nama": "Youtube 1 bulan",
+    "Harga": "11.500",
+    "Varian": "famhead",
+    "Gambar": "YOUTUBE.jpg",
+    "Note": "BIsa invit max 5 Member"
+  },
+  {
+    "Nama": "Chatgpt 1 bulan",
+    "Harga": "15.000",
+    "Varian": "sharing",
+    "Gambar": "CHATGPT.jpg",
+    "Note": "sharing menggunakan email dan kode; sharing harus janjian login buat dapetin kode"
+  },
+  {
+    "Nama": "Chatgpt 1 bulan",
+    "Harga": "60.000",
+    "Varian": "private",
+    "Gambar": "CHATGPT.jpg",
+    "Note": ""
+  },
+  {
+    "Nama": "Loklok 1 bulan 5u",
+    "Harga": "16.000",
+    "Varian": "sharing",
+    "Gambar": "LOKLOK.jpg",
+    "Note": "bergaransi hanya jika ke bf; sharing tidak menerima komplen limit screen! kalo mau puas nonton, beli yang private kocak."
+  },
+  {
+    "Nama": "Loklok 1 bulan 3u",
+    "Harga": "17.500",
+    "Varian": "sharing",
+    "Gambar": "LOKLOK.jpg",
+    "Note": "bergaransi hanya jika ke bf; sharing tidak menerima komplen limit screen! kalo mau puas nonton, beli yang private kocak."
+  },
+  {
+    "Nama": "Loklok 20 hari",
+    "Harga": "21.500",
+    "Varian": "private",
+    "Gambar": "LOKLOK.jpg",
+    "Note": "bergaransi hanya jika ke bf"
+  },
+  {
+    "Nama": "Wetv 1 bulan 8u",
+    "Harga": "8.000",
+    "Varian": "sharing",
+    "Gambar": "WETV.jpg",
+    "Note": ""
+  },
+  {
+    "Nama": "Wetv 1 bulan 5u",
+    "Harga": "10.000",
+    "Varian": "sharing",
+    "Gambar": "WETV.jpg",
+    "Note": ""
+  },
+  {
+    "Nama": "Wetv 1 bulan 3u",
+    "Harga": "12.000",
+    "Varian": "sharing",
+    "Gambar": "WETV.jpg",
+    "Note": ""
+  },
+  {
+    "Nama": "Wetv 1 bulan",
+    "Harga": "30.000",
+    "Varian": "private",
+    "Gambar": "WETV.jpg",
+    "Note": ""
+  },
+  {
+    "Nama": "Bstation 1 bulanan",
+    "Harga": "7.000",
+    "Varian": "sharing",
+    "Gambar": "BSTATION.jpg",
+    "Note": ""
+  },
+  {
+    "Nama": "Bstation 3 bulan 3u",
+    "Harga": "13.000",
+    "Varian": "sharing",
+    "Gambar": "BSTATION.jpg",
+    "Note": ""
+  },
+  {
+    "Nama": "Bstation 1 tahun",
+    "Harga": "16.000",
+    "Varian": "sharing",
+    "Gambar": "BSTATION.jpg",
+    "Note": ""
+  },
+  {
+    "Nama": "Bstation 1 bulan",
+    "Harga": "30.000",
+    "Varian": "private",
+    "Gambar": "BSTATION.jpg",
+    "Note": ""
+  },
+  {
+    "Nama": "Bstation 2 bulan 3u",
+    "Harga": "46.000",
+    "Varian": "private",
+    "Gambar": "BSTATION.jpg",
+    "Note": ""
+  },
+  {
+    "Nama": "Iqiyi 1 bulan standar",
+    "Harga": "5.000",
+    "Varian": "sharing",
+    "Gambar": "IQIYI.jpg",
+    "Note": ""
+  },
+  {
+    "Nama": "Iqiyi 1 bulan prem",
+    "Harga": "7.000",
+    "Varian": "sharing",
+    "Gambar": "IQIYI.jpg",
+    "Note": ""
+  },
+  {
+    "Nama": "Iqiyi 1 tahun prem",
+    "Harga": "10.500",
+    "Varian": "sharing",
+    "Gambar": "IQIYI.jpg",
+    "Note": ""
+  },
+  {
+    "Nama": "Iqiyi 1 bulan standar",
+    "Harga": "30.500",
+    "Varian": "private",
+    "Gambar": "IQIYI.jpg",
+    "Note": ""
+  },
+  {
+    "Nama": "Iqiyi 1 bulan prem",
+    "Harga": "40.500",
+    "Varian": "private",
+    "Gambar": "IQIYI.jpg",
+    "Note": ""
+  },
+  {
+    "Nama": "Prime Video 1 bulan",
+    "Harga": "10.000",
+    "Varian": "private",
+    "Gambar": "PRIME-VIDEO.jpg",
+    "Note": ""
+  },
+  {
+    "Nama": "Viu 1 tahun",
+    "Harga": "5.000",
+    "Varian": "Private unlim",
+    "Gambar": "VIU.jpg",
+    "Note": "Acc dari seller"
+  },
+  {
+    "Nama": "Ibis Paint 1 tahun",
+    "Harga": "16.000",
+    "Varian": "Sharing",
+    "Gambar": "IBIS-PAINT.jpg",
+    "Note": "Login menggunakan code cadangan"
+  },
+  {
+    "Nama": "Vidio 1 bulan",
+    "Harga": "22.000",
+    "Varian": "Sharing",
+    "Gambar": "VIDIO.jpg",
+    "Note": ""
+  },
+  {
+    "Nama": "Vidio 1 bulan",
+    "Harga": "33.000",
+    "Varian": "private",
+    "Gambar": "VIDIO.jpg",
+    "Note": ""
+  }
+]

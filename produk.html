@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amethyst Store - List Produk Premium</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+    <main>
+        <section id="product-list" class="hero">
+            <div class="container">
+                <h1 class="page-title">Katalog</h1>
+
+                <div class="controls-wrapper">
+                    <div class="search-container">
+                        <input type="text" id="product-search" placeholder="Cari aplikasi (Netflix, Spotify, dll...)" onkeyup="filterProducts()">
+                    </div>
+
+                    <div class="filter-container">
+                        <select id="category-filter" onchange="filterProducts()">
+                            <option value="all">Semua Kategori</option>
+                            <option value="premium">Aplikasi Premium</option>
+                            <option value="topup">Top Up Game</option>
+                            <option value="sosmed">Media Sosial</option>
+                        </select>
+                        <select id="sort-filter" onchange="filterProducts()">
+                            <option value="default">Urutkan Default</option>
+                            <option value="price-asc">Harga Termurah (Mulai Dari)</option>
+                            <option value="price-desc">Harga Termahal (Mulai Dari)</option>
+                            <option value="name-asc">Nama A-Z</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="product-grid" id="product-grid">
+                    </div>
+            </div>
+        </section>
+    </main>
+    
+    <footer class="main-footer">
+        <div class="container">
+            <a href="https://t.me/TrxFiz">&copy; 2025 Amethyst Store. Semua Hak Cipta Dilindungi.</a>
+        </div>
+    </footer>
+
+    <div id="product-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-button" onclick="closeModal('product-modal')">&times;</span>
+            <div id="modal-details">
+                </div>
+            <button class="glow-genz-button modal-order-btn" disabled onclick="openOrderModal(null)">Pilih Varian Dahulu</button>
+        </div>
+    </div>
+    
+    <div id="order-modal" class="modal">
+        <div class="modal-content order-modal-content">
+            <span class="close-button" onclick="closeModal('order-modal')">&times;</span>
+            <h2>Pilih Metode Order</h2>
+            <div class="contact-grid">
+                <a href="https://wa.me/6285176755290" target="_blank" class="contact-card">
+                    <i class="fab fa-whatsapp"></i>
+                    <p>WhatsApp</p>
+                </a>
+                <a href="https://t.me/AmethystFIz" target="_blank" class="contact-card">
+                    <i class="fab fa-telegram"></i>
+                    <p>Telegram</p>
+                </a>
+                <a href="https://www.instagram.com/AmethystFIz" target="_blank" class="contact-card">
+                    <i class="fab fa-instagram"></i>
+                    <p>Instagram</p>
+                </a>
+            </div>
+            <p class="contact-note">Harga dan produk bisa berubah, Tanya stock dan harga sebelum order</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
